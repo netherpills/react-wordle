@@ -32,7 +32,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="S" />
+        <Cell value="C" />
         <Cell value="A" />
         <Cell
           isRevealing={true}
@@ -40,7 +40,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           value="R"
           status="present"
         />
-        <Cell value="N" />
+        <Cell value="L" />
         <Cell value="A" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
@@ -67,14 +67,14 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         >
           cwackerfuss
         </a>{' '}
-        <br>
-        <br>Personalizado por
+        <br></br>
+        Personalizado por
         -{' '}
         <a
           href="https://www.youtube.com/watch?v=pzo9nM2kEkM"
           className="underline font-bold"
         >
-          tu mamá
+          MBV
         </a>{' '}
       </p>
     </BaseModal>
