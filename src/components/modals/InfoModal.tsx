@@ -67,6 +67,14 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         >
           cwackerfuss
         </a>{' '}
+        Personalizado por
+        -{' '}
+        <a
+          href="https://www.youtube.com/watch?v=pzo9nM2kEkM"
+          className="underline font-bold"
+        >
+          tu mamá
+        </a>{' '}
       </p>
     </BaseModal>
   )
