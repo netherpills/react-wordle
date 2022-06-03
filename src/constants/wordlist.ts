@@ -18,4 +18,10 @@ export const WORDS = [
   'erica',
   'nadia',
   'pilar',
+  'santi',
+  'ponzi',
+  'bauer',
+  'ramon',
+  'julio',
+  'julia',
 ]
