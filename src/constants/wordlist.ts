@@ -24,4 +24,5 @@ export const WORDS = [
   'ramon',
   'julio',
   'julia',
+  'larra',
 ]
