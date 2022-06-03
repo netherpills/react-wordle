@@ -31,13 +31,13 @@ export const Cell = ({
       'border-black dark:border-slate-100': value && !status,
       'absent shadowed bg-slate-400 dark:bg-slate-700 text-white border-slate-400 dark:border-slate-700':
         status === 'absent',
-      'correct shadowed bg-red-500 text-white border-red-500':
+      'correct shadowed bg-red-400 text-white border-red-400':
         status === 'correct' && isHighContrast,
-      'present shadowed bg-purple-900 text-white border-red-500':
+      'present shadowed bg-purple-900 text-white border-purple-900':
         status === 'present' && isHighContrast,
-      'correct shadowed bg-rose-500 text-white border-red-500':
+      'correct shadowed bg-rose-400 text-white border-rose-400':
         status === 'correct' && !isHighContrast,
-      'present shadowed bg-purple-500 text-white border-red-500':
+      'present shadowed bg-purple-500 text-white border-purple-500':
         status === 'present' && !isHighContrast,
       'cell-fill-animation': isFilled,
       'cell-reveal': shouldReveal,
