@@ -71,10 +71,10 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         Personalizado por
         -{' '}
         <a
-          href="https://www.youtube.com/watch?v=pzo9nM2kEkM"
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           className="underline font-bold"
         >
-          MBV
+          Mariano
         </a>{' '}
       </p>
     </BaseModal>
