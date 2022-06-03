@@ -11111,7 +11111,7 @@ export const VALID_GUESSES = [
   'sofia',
   'begue',
   'chipa',
-  'bazan',
+  'vicky',
   'berni',
   'cacha',
   'chino',
