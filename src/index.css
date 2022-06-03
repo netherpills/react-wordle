@@ -15,7 +15,7 @@
 
 .dark {
   --default-cell-bg-color: theme('colors.indigo.900');
-  --default-cell-border-color: theme('colors.red');
+  --default-cell-border-color: theme('colors.red.50');
   --default-cell-text-color: theme('colors.white');
   --absent-cell-bg-color: theme('colors.red.900');
 }
