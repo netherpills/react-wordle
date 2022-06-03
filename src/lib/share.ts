@@ -26,7 +26,7 @@ export const shareStatus = (
       solution,
       guesses,
       getEmojiTiles(isDarkMode, isHighContrastMode)
-    )`
+    )
 
   const shareData = { text: textToShare }
 
