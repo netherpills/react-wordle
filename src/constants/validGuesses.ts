@@ -11101,4 +11101,5 @@ export const VALID_GUESSES = [
   'ramon',
   'julio',
   'julia',
+  'felpa',
 ]
