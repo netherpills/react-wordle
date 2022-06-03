@@ -34,11 +34,11 @@ export const Key = ({
       'bg-slate-400 dark:bg-slate-800 text-white': status === 'absent',
       'bg-red-500 hover:bg-red-600 active:bg-red-700 text-white':
         status === 'correct' && isHighContrast,
-      'bg-cyan-500 hover:bg-cyan-600 active:bg-cyan-700 text-white':
+      'bg-purple-500 hover:bg-purple-600 active:bg-purple-700 text-white':
         status === 'present' && isHighContrast,
       'bg-rose-500 hover:bg-rose-600 active:bg-rose-700 text-white':
         status === 'correct' && !isHighContrast,
-      'bg-purple-500 hover:bg-purple-600 active:bg-purple-700 text-white':
+      'bg-blue-500 hover:bg-blue-600 active:bg-blue-700 text-white':
         status === 'present' && !isHighContrast,
     }
   )
