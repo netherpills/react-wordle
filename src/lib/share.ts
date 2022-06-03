@@ -26,7 +26,7 @@ export const shareStatus = (
       solution,
       guesses,
       getEmojiTiles(isDarkMode, isHighContrastMode)
-    )
+    )` + `\n\nhttps://wordle-csl.vercel.app/`
 
   const shareData = { text: textToShare }
 
