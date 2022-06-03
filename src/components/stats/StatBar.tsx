@@ -32,6 +32,7 @@ export const StatBar = ({ gameStats }: Props) => {
       <StatItem label={SUCCESS_RATE_TEXT} value={`${gameStats.successRate}%`} />
       <StatItem label={CURRENT_STREAK_TEXT} value={gameStats.currentStreak} />
       <StatItem label={BEST_STREAK_TEXT} value={gameStats.bestStreak} />
+      <StatItem label="¿Facha?" value="Hay" />
     </div>
   )
 }
