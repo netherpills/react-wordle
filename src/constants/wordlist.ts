@@ -34,7 +34,7 @@ export const WORDS = [
   'sofia',
   'begue',
   'chipa',
-  'bazan',
+  'vicky',
   'berni',
   'cacha',
   'chino',
