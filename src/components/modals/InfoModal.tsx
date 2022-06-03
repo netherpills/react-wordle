@@ -44,7 +44,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="A" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        La letra N está en la palabra pero no en el lugar correcto.
+        La letra R está en la palabra pero no en el lugar correcto.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
