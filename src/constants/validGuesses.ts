@@ -11132,6 +11132,7 @@ export const VALID_GUESSES = [
   'franco',
   'bruno',
   'vidal',
+  'trejo',
   'romeo',
   'mucci',
 ]
