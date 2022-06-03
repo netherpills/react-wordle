@@ -55,5 +55,7 @@ export const WORDS = [
   'franco',
   'bruno',
   'vidal',
+  'romeo',
+  'trejo',
   'mucci',
 ]
