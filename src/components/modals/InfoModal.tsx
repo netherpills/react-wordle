@@ -67,6 +67,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         >
           cwackerfuss
         </a>{' '}
+        <br>
         <br>Personalizado por
         -{' '}
         <a
