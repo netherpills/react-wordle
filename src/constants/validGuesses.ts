@@ -11095,4 +11095,10 @@ export const VALID_GUESSES = [
   'erica',
   'nadia',
   'pilar',
+  'santi',
+  'ponzi',
+  'bauer',
+  'ramon',
+  'julio',
+  'julia',
 ]
