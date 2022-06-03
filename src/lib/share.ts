@@ -21,12 +21,12 @@ export const shareStatus = (
   const textToShare =
     `${GAME_TITLE} ${solutionIndex} ${
       lost ? 'X' : guesses.length
-    }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
+    }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n https://wordle-csl.vercel.app/\n\n` +
     generateEmojiGrid(
       solution,
       guesses,
       getEmojiTiles(isDarkMode, isHighContrastMode)
-    )` + `\n\nhttps://wordle-csl.vercel.app/`
+    )`
 
   const shareData = { text: textToShare }
 
