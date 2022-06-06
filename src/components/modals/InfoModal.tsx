@@ -33,24 +33,24 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
+        <Cell value="V" />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="R"
-          status="present"
-        />
-        <Cell value="A" />
-        <Cell
-          isRevealing={true}
-          isCompleted={true}
-          value="C"
+          value="E"
           status="present"
         />
         <Cell value="L" />
-        <Cell value="A" />
+        <Cell
+          isRevealing={true}
+          isCompleted={true}
+          value="A"
+          status="present"
+        />
+        <Cell value="N" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Las letras C y R están en la palabra pero no en el lugar correcto.
+        Las letras E y A están en la palabra pero no en el lugar correcto.
       </p> 
 
       <div className="flex justify-center mb-1 mt-4">
@@ -66,8 +66,8 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
 
       <p className="text-sm text-gray-500 dark:text-gray-300">
         <br></br>Las palabras en juego están relacionadas con la
-        <br></br><b>Promo 65</b>, e incluyen nombres, apodos, apellidos,
-        <br></br>profesores, entre otras cosas de los tres cursos.
+        <br></br><b>Promo 65</b>, e incluyen: <i>nombres, apodos, apellidos,
+        <br></br>profesores, entre otras cosas, de los tres cursos.</i>
       </p>     
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
