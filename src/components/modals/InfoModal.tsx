@@ -32,31 +32,42 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="C" />
-        <Cell value="A" />
         <Cell
           isRevealing={true}
           isCompleted={true}
           value="R"
           status="present"
         />
+        <Cell value="A" />
+        <Cell
+          isRevealing={true}
+          isCompleted={true}
+          value="C"
+          status="present"
+        />
         <Cell value="L" />
         <Cell value="A" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        La letra R está en la palabra pero no en el lugar correcto.
-      </p>
+        Las letras C y R están en la palabra pero no en el lugar correcto.
+      </p> 
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="C" />
-        <Cell value="A" />
+        <Cell value="P" />
         <Cell value="R" />
-        <Cell isRevealing={true} isCompleted={true} value="T" status="absent" />
-        <Cell value="A" />
+        <Cell isRevealing={true} isCompleted={true} value="I" status="absent" />
+        <Cell value="M" />
+        <Cell value="O" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        La letra T no se encuentra en ningún lugar de la palabra.
+        La letra I no se encuentra en ningún lugar de la palabra.
       </p>
+
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        Las palabras en juego están relacionadas con la Promo 65,
+        <br></br>e incluyen nombres, apodos, apellidos, profesores,
+        <br></br>entre otras cosas de los tres cursos.
+      </p>     
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
         El codigo original es de
@@ -66,6 +77,15 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           className="underline font-bold"
         >
           cwackerfuss
+        </a>{' '}
+        <br></br>
+        ¿Falta una palabra?
+        -{' '}
+        <a
+          href="https://wordle-csl.vercel.app/sugerir.html"
+          className="underline font-bold"
+        >
+          Sugerila acá
         </a>{' '}
         <br></br>
         Personalizado por
