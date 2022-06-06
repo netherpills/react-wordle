@@ -80,15 +80,6 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           cwackerfuss
         </a>{' '}
         <br></br>
-        ¿Falta una palabra?
-        -{' '}
-        <a
-          href="https://wordle-csl.vercel.app/sugerir.html"
-          className="underline font-bold"
-        >
-          Sugerila acá
-        </a>{' '}
-        <br></br>
         Personalizado por
         -{' '}
         <a
