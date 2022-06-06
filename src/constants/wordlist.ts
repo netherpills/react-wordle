@@ -58,4 +58,6 @@ export const WORDS = [
   'romeo',
   'trejo',
   'mucci',
+  'vidal',
+  'facio',
 ]
