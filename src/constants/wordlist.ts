@@ -25,6 +25,7 @@ export const WORDS = [
 'julio',
 'larra',
 'lacha',
+'lampe',
 'luchi',
 'lucio',
 'lujan',
