@@ -10,7 +10,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="¿Cómo jugar?" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Tenés que adivina la palabra de 5 letras en 6 intentos.
+        Tenés que adivinar la palabra de 5 letras en 6 intentos.
         Cada vez que probás una palabra diferente, el color de los espacios
         ira cambiando acorde a si la letra está en la palabra y en la
         posición correcta.
