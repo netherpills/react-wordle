@@ -65,9 +65,10 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        <br></br>Las palabras en juego están relacionadas con la
+        <br></br>Las palabras en juego están relacionadas con la 
         <b>Promo 65</b>, e incluyen: <i>nombres, apodos, apellidos,
-        profesores, entre otras cosas, de los tres cursos.</i>
+        profesores, entre otras cosas, de los tres cursos. Cada palabra
+        es aleatoria.</i>
       </p>     
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
