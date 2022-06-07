@@ -24,6 +24,8 @@ export const SettingsModal = ({
   handleHardMode,
   isDarkMode,
   handleDarkMode,
+  isMusic,
+  handleMusic,
   isHighContrastMode,
   handleHighContrastMode,
 }: Props) => {
@@ -50,7 +52,7 @@ export const SettingsModal = ({
         <SettingsToggle
           settingName="Música"
           flag={isMusic}
-          handleFlag={musicMode}
+          handleFlag={handleMusic}
         />
       </div>
     </BaseModal>
