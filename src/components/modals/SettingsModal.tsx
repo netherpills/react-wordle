@@ -4,7 +4,6 @@ import {
   HARD_MODE_DESCRIPTION,
   HIGH_CONTRAST_MODE_DESCRIPTION,
 } from '../../constants/strings'
-import wordleTheme from 'wordle-csl/src/components/assets/wordle-csl-theme.mp3'
 
 type Props = {
   isOpen: boolean
@@ -24,8 +23,6 @@ export const SettingsModal = ({
   handleHardMode,
   isDarkMode,
   handleDarkMode,
-  isMusic,
-  handleMusic,
   isHighContrastMode,
   handleHighContrastMode,
 }: Props) => {
@@ -48,11 +45,6 @@ export const SettingsModal = ({
           flag={isHighContrastMode}
           handleFlag={handleHighContrastMode}
           description={HIGH_CONTRAST_MODE_DESCRIPTION}
-        />
-        <SettingsToggle
-          settingName="Música"
-          flag={isMusic}
-          handleFlag={handleMusic}
         />
       </div>
     </BaseModal>
