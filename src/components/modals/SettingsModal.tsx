@@ -4,7 +4,7 @@ import {
   HARD_MODE_DESCRIPTION,
   HIGH_CONTRAST_MODE_DESCRIPTION,
 } from '../../constants/strings'
-import wordleTheme from '../../assets/wordle-csl-theme.mp3'
+import wordleTheme from 'wordle-csl/src/components/assets/wordle-csl-theme.mp3'
 
 type Props = {
   isOpen: boolean
